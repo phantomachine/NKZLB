@@ -8,7 +8,7 @@ rng('default');
 
 % metaparameters
 %pfmethod = 0; % =0: TI, =1: future PEA, =2: current PEA 
-%np = 2; % order of polynomial, 2 or 4
+np = 2; % order of polynomial, 2 or 4
 ngh = 3; % number of gh nodes
 tol = 1e-8; % tolerance for main loop
 simT = 10000; % length of simulation for Euler error
